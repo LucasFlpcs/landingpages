@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap" rel="stylesheet">
+    <title>Landing pages</title>
+</head>
+
+<body>
+    <div class="caixa-superior">
+        <div class="menu-superior">
+            <h2 class="logo-superior">Dev contábil</h2>
+            <a href="#titulo-inferior" class="link-superior">Quem Somos</a>
+            <a class="link-superior" href="#titulo-meio">Serviços</a>
+            <a class="link-superior" onclick="mostrarFormulario()">Contato</a>
+        </div>
+        <h1>Dev Contábil</h1>
+
+        <form id="formulario-contato" action="https://formsubmit.co/duz.lucasflp@gmail.com" method="POST">
+            <h3 class="titulo-form">Entre em Contato</h3>
+
+            <label>
+                Nome
+                <input type="text" name="nome" placeholder="Digite Seu Nome" required />
+            </label>
+
+            <label>
+                E mail
+                <input type="email" name="email" placeholder="Digite o seu Email" required />
+            </label>
+            <labe>
+                Fale conosco
+                <textarea name="info" placeholder="Qual Sua duvida?"></textarea>
+            </labe>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+    <h2 id="titulo-meio">Nossos Serviços</h2>
+    <div class="caixa-central">
+
+
+        <div class="card">
+            <h3 class="titulo-card">Contabilidade Completa</h3>
+
+            <ul>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="titulo-card">Cuidamos do seu Negócio</h3>
+
+            <ul>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3 class="titulo-card">Cuidamos de você</h3>
+
+            <ul>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+                <li>Imposto de Renda</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="caixa-inferior">
+
+        <h2 id="titulo-inferior">Sobre Nós</h2>
+        <p class="paragrafo-inferior">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est odit
+            consequuntur, quasi deserunt facere
+            quas
+            laboriosam aperiam, commodi, et architecto exercitationem a? Nam amet minima saepe neque eius maiores.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est odit consequuntur, quasi deserunt facere
+            quas
+            laboriosam aperiam, commodi, et architecto exercitationem a? Nam amet minima saepe neque eius maiores.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit est odit consequuntur, quasi deserunt facere
+            quas
+            laboriosam aperiam, commodi, et architecto exercitationem a? Nam amet minima saepe neque eius maiores.
+        </p>
+
+    </div>
+
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
